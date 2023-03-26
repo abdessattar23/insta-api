@@ -1,0 +1,22 @@
+{
+  "name": "my-instagram-api",
+  "version": "1.0.0",
+  "description": "An API that fetches Instagram user data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "instagram",
+    "api",
+    "node.js"
+  ],
+  "author": "Abdessattar Elyagoubi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "instagram-private-api": "^4.4.0",
+    "dotenv": "^10.0.0"
+  }
+}
